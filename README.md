@@ -4,8 +4,6 @@ PrincessGlass is a community-maintained adaptation of the Glass KWin effect for 
 
 The goal of this project is to keep the Glass effect working on Plasma 6.3.6 while preserving its visual quality and making installation as simple as possible.
 
-![Screenshot](docs/screenshot.png)
-
 ## Features
 
 - ✅ Compatible with KDE Plasma 6.3.6
