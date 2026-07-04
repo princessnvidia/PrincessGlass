@@ -78,8 +78,7 @@ if(GLASS_X11)
     endif()
 endif()
 
-# PrincessGlass: allow Plasma 6.3.x experimental build
-if(${KWin_VERSION} VERSION_LESS 6.3)
+if(${KWin_VERSION} VERSION_LESS 6.4)
     message(FATAL_ERROR "Glass does not support your Plasma version (${KWin_VERSION}). See the README for more information.")
 endif()
 

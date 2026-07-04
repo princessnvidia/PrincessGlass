@@ -9,7 +9,7 @@
 
 #include "effect/effect.h"
 #ifndef GLASS_X11
-#include <QRegion>
+#include "core/region.h"
 #endif
 #include "opengl/glutils.h"
 #include "scene/item.h"
@@ -19,7 +19,7 @@
 #include <QStringList>
 
 #include <unordered_map>
-// PrincessGlass Plasma 6.3: removed missing plasma_version include
+#include <Plasma/plasma_version.h>
 
 namespace KWin
 {

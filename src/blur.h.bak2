@@ -19,7 +19,7 @@
 #include <QStringList>
 
 #include <unordered_map>
-// PrincessGlass Plasma 6.3: removed missing plasma_version include
+#include <Plasma/plasma_version.h>
 
 namespace KWin
 {
