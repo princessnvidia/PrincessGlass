@@ -1,78 +1,124 @@
-# PrincessGlass
+# PrincessGlass ✨
 
-PrincessGlass is a community-maintained adaptation of the Glass KWin effect for **KDE Plasma 6.3.6**.
+Community-maintained adaptation of the **Glass** KWin effect for **KDE Plasma 6.3.6**.
 
-The goal of this project is to keep the Glass effect working on Plasma 6.3.6 while preserving its visual quality and making installation as simple as possible.
+PrincessGlass preserves the original visual style while restoring compatibility with modern Plasma releases and providing an easy installation experience for Linux users.
 
-## Demo
+---
 
 <p align="center">
   <img src="docs/demo.gif" alt="PrincessGlass Demo" width="100%">
 </p>
 
-## Features
+---
 
-- ✅ Compatible with KDE Plasma 6.3.6
-- ✅ Improved blur and glass effect
-- ✅ Rounded corners
-- ✅ Wayland support
-- ✅ Adjustable blur strength
-- ✅ Adjustable tint and glow
-- ✅ Bug fixes for Plasma 6.3.6
-- ✅ Community maintained
+# Features
+
+- ✨ Glass-like window decorations
+- 🌫 Improved blur effect
+- ⭕ Rounded corners
+- 🪟 Native Wayland support
+- 🎨 Adjustable blur intensity
+- 💜 Tint and glow customization
+- 🔧 Plasma 6.3.6 compatibility fixes
+- 🚀 Community maintenance
 
 ---
 
-## About
+# Project Goal
 
-PrincessGlass is based on the original **Glass** effect created by its original authors.
+PrincessGlass is **not a new window effect**.
 
-This repository focuses exclusively on maintaining compatibility with **KDE Plasma 6.3.6** and providing future fixes and improvements.
+Its purpose is to preserve and maintain the original Glass effect for modern KDE Plasma versions while making installation and future maintenance easier for the community.
 
 ---
 
-## Installation
+# Tech Stack
 
-Clone the repository:
+- C++
+- Qt
+- KWin
+- KDE Plasma
+- Wayland
+
+---
+
+# Architecture
+
+```
+KDE Plasma
+      │
+      ▼
+KWin
+      │
+      ▼
+PrincessGlass
+      │
+      ▼
+Blur Pipeline
+      │
+      ▼
+Window Rendering
+```
+
+---
+
+# Compatibility
+
+| Plasma Version | Status |
+|----------------|--------|
+| 6.3.6 | ✅ Supported |
+| 6.4.x | 🚧 Planned |
+| Future releases | 🚧 Community maintained |
+
+---
+
+# Installation
 
 ```bash
 git clone https://github.com/princessnvidia/PrincessGlass.git
 cd PrincessGlass
 ```
 
-Build and install following the standard KWin effect installation process.
+Follow the standard KWin effect installation procedure for your Plasma version.
 
 ---
 
-## Compatibility
+# Roadmap
 
-| Plasma version | Status |
-|---------------|--------|
-| 6.3.6 | ✅ Supported |
-| 6.4+ | ❌ Not tested |
+## Maintenance
 
----
+- [x] Plasma 6.3.6 support
+- [ ] Plasma 6.4 compatibility
+- [ ] Future Plasma releases
 
-## Roadmap
+## Improvements
 
-- Better blur quality
-- Performance improvements
-- Additional customization options
-- Improved installation process
-- Future Plasma compatibility
+- [ ] Better blur quality
+- [ ] Performance optimizations
+- [ ] Additional customization
+- [ ] Easier installation
 
 ---
 
-## Credits
+# Credits
 
-Original Glass effect:
+PrincessGlass is based on the original **Glass** KWin effect created by its original authors.
+
+Original project:
+
 https://github.com/4v3ngR/kwin-effects-glass
 
-PrincessGlass adaptation and Plasma 6.3.6 maintenance:
-PrincessNvidia
+This repository focuses on maintaining compatibility with recent KDE Plasma releases while respecting the original project and its license.
 
 ---
 
-## License
+# Status
 
-Same license as the original project.
+🚧 Community Maintenance Project
+
+---
+
+# License
+
+Same license as the original Glass project.
